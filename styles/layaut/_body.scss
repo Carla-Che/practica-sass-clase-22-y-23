@@ -1,0 +1,201 @@
+body{
+    background-color:$second-background-color;
+    font-family:$main-font-family;
+   
+
+}
+
+   
+.info-members {
+    font-size: 12px;
+    padding: 5px 0px 5px 5px;
+    background-color: $main-background-color;
+    width: 250px;
+    height: 540px;
+    border-radius: 5px;
+    color: $main-font-color;
+    font-family: $main-font-family;
+    font-weight: lighter;
+    position:absolute;
+    top:50px;
+    left:300px;
+    
+    }  
+
+header{
+    align-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    .one-header{
+             
+        font-size:$main-font-size;
+        color:$second-font-color;
+        text-align: left;
+        margin-left: 25px;
+       
+        }
+
+ .two-header{
+
+            font-family:$main-font-family; 
+            font-size:$second-font-size;
+            color:$second-font-color;
+            margin-right: 100px;
+            
+            h2 {
+            color:$three-font-color;
+            font-family:'$main-font-family'; 
+            margin-top: 0px;
+         }
+         }
+
+
+         .full-main{
+            width: 600px;
+            height:540px;
+            padding:5px;
+            position:absolute;
+            right:200px;
+            top:50px;
+            margin-left:5px;
+            background-color: $four-backgraund-color;
+        }
+              
+               
+        .card-members{
+            display: flex;
+            margin: 10px;
+            width: 400px;
+            height: 400px;
+            /*flex-direction: column;
+            justify-content:space-between;
+            flex-wrap: wrap;*/
+            }
+                 
+            .member-1 {
+            max-width: 150px;
+            height: 200px;
+            font-size:$second-font-size;
+            margin: 15px;
+            background-color:$three-backgraund-color;
+            font-size:$second-font-size;
+            display: block;
+                position: absolute;       
+                top: 85px;    
+                border-radius: $card-border-radius;      
+            }
+            
+            .member-2 {
+                max-width: 150px;
+                height: 200px;
+                font-size:$second-font-size;
+                margin: 15px;
+                background-color:$three-backgraund-color;
+                font-size:$second-font-size;
+                display: block;
+                position: absolute;       
+                top:85px;
+                left: 185px;
+                border-radius: $card-border-radius;
+            }
+
+                .member-3 {
+                    max-width: 150px;
+                    height: 200px;
+                    font-size:$second-font-size;
+                    margin: 15px;
+                    background-color:$three-backgraund-color;
+                    font-size:$second-font-size; 
+                    display: block;
+                    position: absolute;       
+                    top: 85px;
+                    left: 360px;
+                    border-radius: $card-border-radius;
+                    }
+                    
+              .member-4{
+                        max-width: 150px;
+                        height: 200px;
+                        font-size:$second-font-size;
+                        margin: 15px;
+                        background-color:$three-backgraund-color;
+                        font-size:$second-font-size;
+                        display: block;
+                        position: absolute;       
+                        top: 300px;   
+                        border-radius: $card-border-radius;
+              }
+
+              .member-5 {
+                max-width: 150px;
+                height: 200px;
+                font-size:$second-font-size;
+                margin: 15px;
+                background-color:$three-backgraund-color;
+                font-size:$second-font-size;
+                display: block;
+                position: absolute;       
+                top: 300px;
+                left: 185px;
+                border-radius: $card-border-radius;
+            
+                  }    
+
+                  .member-6 {
+                    max-width: 150px;
+                    height: 200px;
+                    font-size:$second-font-size;
+                    margin: 15px;
+                    background-color:$three-backgraund-color;
+                    font-size:$second-font-size;
+                    display: block;
+                    position: absolute;       
+                    top: 300px;
+                    left: 360px;
+                    border-radius: $card-border-radius;
+
+                    }
+            h1 {
+            color:$three-font-color;
+            font-size:$main-font-size;
+            display: block;
+            position: relative;
+            bottom: -50px;
+            left:5px;
+                   
+    }
+
+h2 {
+    color:$three-font-color;
+    font-family:$main-font-family; 
+    font-size: $main-font-size;
+    position: relative;
+    top: 50px;
+    
+   
+
+h3 {
+    color:$four-font-color;
+    position: relative;
+    left:5px;
+    bottom: -40px;
+    
+  
+
+    }
+    
+         p {
+        color:$main-font-color;
+        display: flex;
+                 }
+
+    h4{ 
+        color:black;
+        font-size:$second-font-size;
+            
+    }
+        
+}
